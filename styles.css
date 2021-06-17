@@ -16,3 +16,55 @@ button {
 body {
     background-color: #fffbf7;
 }
+.header {
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    height: 45px;
+}
+  li{
+      display: inline;
+  }
+  .header > * {
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle;
+      height: 45px;
+      line-height: 45px;
+      font-family: sans-serif;
+  }
+.logo{
+    width: 15%;
+}
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+.menu {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #025157;
+  }
+.actions{
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .actions a {
+    color: #67b54b;
+  }
+  
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
